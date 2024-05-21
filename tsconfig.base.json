@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.spec.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "ui"
+    },
+    {
+      "path": "web"
+    }
+  ]
+}
