@@ -5,21 +5,17 @@ WORKDIR /app
 COPY .yarn .yarn
 COPY .yarnrc.yml .yarnrc.yml
 COPY package.json package.json
-# COPY yarn.lock yarn.lock
-# COPY .pnp.cjs .pnp.cjs
-# COPY .pnp.loader.mjs .pnp.loader.mjs
-
-# RUN rm -rf apps/web
-# RUN npm install yarn --global --force
+COPY packages/ui/package.json packages/ui/package.json
+COPY packages/web/package.json packages/web/package.json
 
 RUN yarn cache clean
 RUN yarn install
+COPY .pnp.loader.mjs .pnp.loader.mjs
 
 COPY . .
 
-RUN yarn ui build
 RUN yarn web build
-# RUN rm -rf apps/ticket/.next/cache
 
 EXPOSE 3000
 CMD ["yarn", "web", "start"]
+

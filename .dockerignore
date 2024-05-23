@@ -11,3 +11,5 @@ node_modules
 .eslintignore
 .eslintrc.json
 README.md
+
+.editorconfig
