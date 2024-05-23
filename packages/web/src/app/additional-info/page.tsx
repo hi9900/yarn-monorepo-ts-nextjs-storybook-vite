@@ -1,4 +1,4 @@
-import AdditionalInfoLayout from '@/containers/AdditionalInfoLayout'
+import AdditionalInfoLayout from '../../containers/AdditionalInfoLayout'
 
 export default function Page() {
   return (

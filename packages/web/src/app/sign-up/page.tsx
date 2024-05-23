@@ -1,4 +1,4 @@
-import SignUpLayout from '@/containers/SignUpLayout'
+import SignUpLayout from '../../containers/SignUpLayout'
 
 export default function Page() {
   return (

@@ -5,3 +5,10 @@ next.config.js
 *.mjs
 postcss.config.js
 tailwind.config.js
+
+dist
+node_modules
+.yarn
+.pnp.cjs
+.pnp.loager.mjs
+!.storybook

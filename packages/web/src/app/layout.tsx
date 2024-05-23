@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
-import AuthSession from '@/components/providers/session-provider'
+import AuthSession from '../components/providers/session-provider'
 
-import '@/styles/globals.css'
-import 'space-stars-design-system/dist/index.css'
+import '../styles/globals.css'
+import 'packages/ui/dist/index.css'
 
 export const metadata: Metadata = {
   title: 'Dreaming-Stars',

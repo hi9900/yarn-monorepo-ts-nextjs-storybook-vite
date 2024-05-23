@@ -1,6 +1,7 @@
-import DescriptionBox from '@/components/sign/DescriptionBox'
-import TitleContainer from '@/components/sign/TitleContainer'
-import { KakaoButton } from 'space-stars-design-system'
+import { KakaoButton } from '@packages/ui'
+
+import DescriptionBox from '../components/sign/DescriptionBox'
+import TitleContainer from '../components/sign/TitleContainer'
 
 export default function SignInLayout() {
   return (

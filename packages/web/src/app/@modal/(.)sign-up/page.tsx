@@ -1,5 +1,5 @@
-import Modal from '@/components/modal/modal'
-import SignUpLayout from '@/containers/SignUpLayout'
+import Modal from '../../..//components/modal/modal'
+import SignUpLayout from '../../../containers/SignUpLayout'
 
 export default function Page() {
   return (

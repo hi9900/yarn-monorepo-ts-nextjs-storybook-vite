@@ -1,4 +1,4 @@
-import SignInLayout from '@/containers/SignInLayout'
+import SignInLayout from '../../containers/SignInLayout'
 
 export default function SignInPage() {
   return (
